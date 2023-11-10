@@ -1,0 +1,132 @@
+
+body {
+   background-color: #fefefe;
+   color: rgb(13, 13, 13);
+   font-family: 'Times New Roman', Times, serif;
+   margin: 0;
+   padding: 0;
+   font-size: 17px;
+}
+
+.photos {
+   width: 90vw;
+   margin-left: 8vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.specialict {
+   display: flex;
+   align-items: center;
+   gap: 2em;
+}
+
+.specialist img {
+   width: 5em;
+}
+
+.menu_2 li {
+   list-style-type: none;
+}
+
+.menu_2 li a {
+   display: block;
+   color: #080808;
+   padding: 2em;
+}
+
+.menu_2 ul {
+   font-size: 25px;
+   display: flex;
+   flex-direction: row;
+}
+
+.name {
+   font-size: 25px;
+}
+
+.specialist {
+   font-size: 16px;
+}
+
+h2 {
+   font-size: 30px;
+   text-align: center;
+   font-weight: 200;
+}
+
+.info img {
+   width: 400px;
+   border: 6px solid rgb(3, 3, 3);
+}
+
+main {
+   margin-top: 3em;
+}
+
+.info {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.biography div {
+   margin-left: 2em;
+   margin-bottom: 1em;
+   font-weight: 200;
+}
+
+.biography div:nth-child(1) {
+   font-weight: 500;
+}
+
+.rewards div {
+   margin-left: 2em;
+   margin-bottom: .5em;
+   font-weight: 200;
+}
+
+.specialist {
+   display: flex;
+   flex-direction: column;
+}
+
+.photo_1,
+.photo_2,
+.photo_3 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.photo_1 img {
+   width: 340px;
+   margin: 1em;
+}
+
+.photo_2 img {
+   width: 532px;
+   margin: 1em;
+}
+
+.photo_3 img {
+   width: 1110px;
+   margin: 1em;
+}
+
+.inst {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.inst img {
+   width: 10em;
+   margin: 0.6em;
+}
+
+footer {
+   text-align: center;
+   margin: 1em;
+}
